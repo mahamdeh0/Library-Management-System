@@ -1,5 +1,27 @@
 -- Mockaroo was used to generate the sample data
 
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (88, 1, '11/1/2023', '1/29/2024' );
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (54, 2, '11/11/2023', '5/21/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (54, 3, '11/26/2023', '3/3/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (544, 4, '12/5/2023', '7/5/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (353, 5, '10/23/2023', '1/17/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (35, 6, '10/25/2023', '4/4/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (311, 7, '11/22/2023', '3/15/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (354, 8, '9/16/2023', '3/5/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (53, 9, '9/21/2023', '8/7/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (50, 10, '10/11/2023', '1/29/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (422, 11, '10/27/2023', '3/15/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (818, 1, '11/1/2023', '1/29/2024' );
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (514, 2, '11/11/2023', '5/21/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (544, 3, '11/26/2023', '3/3/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (574, 4, '12/5/2023', '7/5/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (393, 5, '10/23/2023', '1/17/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (357, 6, '10/25/2023', '4/4/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (341, 7, '11/22/2023', '3/15/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (364, 8, '9/16/2023', '3/5/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (573, 9, '9/21/2023', '8/7/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (580, 10, '10/11/2023', '1/29/2024');
+insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date  ) values (402, 11, '10/27/2023', '3/15/2024');
 insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date , Date_Returned ) values (1, 1, '11/1/2023', '1/29/2024', '7/2/2024');
 insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date , Date_Returned ) values (2, 2, '11/11/2023', '5/21/2024', '6/13/2024');
 insert into Loans  (BookID , BorrowerID , Date_Borrowed , Due_Date , Date_Returned ) values (3, 3, '11/26/2023', '3/3/2024', '6/21/2024');
