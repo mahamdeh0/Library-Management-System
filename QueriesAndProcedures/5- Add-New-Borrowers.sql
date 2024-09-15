@@ -11,6 +11,8 @@ AS BEGIN
         INSERT INTO Borrowers (First_Name, Last_Name, Email, Date_of_Birth, Membership_Date)
         VALUES (@first_name, @last_name, @Email, @date_of_birth, @membership_date);
         PRINT 'New borrower added successfully.';
+		SELECT borrowerid AS [New borrower ID] FROM borrowers
+		WHERE email = @email
     END
 END
 GO
